@@ -15,7 +15,7 @@ if (!passwordLength) {
 if (passwordLength < 8 || passwordLength > 128) {
   alert("Password must be between 8 and 128 characters.")
   var passwordLength = prompt("How many characters would you like in your password?");
-  } else if (isNaN(passwordLength)) {
+} else if (isNaN(passwordLength)) {
   alert("Please enter a valid number.");
   var passwordLength = prompt("How many characters would you like in your password?");
 } 
